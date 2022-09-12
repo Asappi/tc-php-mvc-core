@@ -1,11 +1,11 @@
 <?php
 
-namespace app\core;
+namespace asappi\phpmvc;
 
-use app\core\Application;
-use app\core\Request;
-use app\core\Response;
-use app\core\exception\NotFoundException;
+use asappi\phpmvc\Application;
+use asappi\phpmvc\Request;
+use asappi\phpmvc\Response;
+use asappi\phpmvc\exception\NotFoundException;
 
 class Router
 {

@@ -11,5 +11,10 @@
             "email": "167908@sskky.fi"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "asappi\\phpmvc": "."
+        }
+    }
 }

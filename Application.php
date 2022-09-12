@@ -1,9 +1,9 @@
 <?php
 
-namespace app\core;
+namespace asappi\phpmvc;
 
-use app\core\db\Database;
-use app\core\db\DbModel;
+use asappi\phpmvc\db\Database;
+use asappi\phpmvc\db\DbModel;
 
 class Application
 {
@@ -60,12 +60,12 @@ class Application
         }
     } 
 
-    public function getController(): \app\core\Controller
+    public function getController(): \asappi\phpmvc\Controller
     {
         return $this->controller;
     }
 
-    public function setController(\app\core\Controller $controller): void
+    public function setController(\asappi\phpmvc\Controller $controller): void
     {
         $this->controller = $controller;
     }

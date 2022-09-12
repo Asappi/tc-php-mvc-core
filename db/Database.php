@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core\db;
+namespace asappi\phpmvc\db;
 
-use app\core\Application;
+use asappi\phpmvc\Application;
 
 class Database
 {
